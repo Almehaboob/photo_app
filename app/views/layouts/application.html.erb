@@ -32,6 +32,11 @@
         </button>
         <a class="navbar-brand" href="#">PhotoApp</a>
         <div class="navbar-collapse collapse navbar-responsive-collapse">
+          <ul class="nav navbar-nav">
+            <li><%= link_to "Link1", "/path1"  %></li>
+            <li><%= link_to "Link2", "/path2"  %></li>
+            <li><%= link_to "Link3", "/path3"  %></li>
+          </ul>
           <ul class="nav navbar-right col-md-4">
 
 <% if current_user %>
@@ -73,11 +78,6 @@ class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %></li>
         </div>
         
       </div><!--/row-->
-
-      <footer>
-        <p>&copy; Company 2024</p>
-      </footer>
-
     </div> <!-- /container -->
 
   </body>

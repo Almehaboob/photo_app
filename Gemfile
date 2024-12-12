@@ -35,6 +35,7 @@ gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'importmap-rails'
 gem 'jquery-rails'
+gem 'webpacker'
 
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
